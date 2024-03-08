@@ -6,24 +6,135 @@
     <title>Página Web Sebastian</title>
     <link rel="shortcut icon" href="img/logo.svg">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <div class="container d-flex justify-between items-center m-auto">
+            <nav class="menu">
+                <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">¿Quién soy?</a></li>
                     <li><a href="#">Experiencia</a></li>
                     <li><a href="#">Pasiones</a></li>
                     <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        <section class="textos-header">
-            
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C190.97,-49.81 369.66,148.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+                </ul>
+            </nav>
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Logo" width="30">
+            </a>
+            <section class="textos-header">
+                <h1>En hombros de gigantes</h1>
+                <h2>La curiosidad como una guía</h2>
+            </section>
+                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C190.97,-49.81 369.66,148.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg>
+                </div>
+        </div>
     </header>
-
-    <h1> ¿Quién soy?</h1>
+<main>
+    <section class="contenedor sobre-mí">
+        <h2 class="titulo">¿Quién soy?</h2>
+        <div class="contenedor-sobre-mí">
+            <img src="img/M102_HubbleEbrahimian_3615.jpg" alt="astronomy" width="500">
+            <div class="contenido-text">
+                <h3>Momentos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure alias cupiditate ducimus assumenda nihil enim nobis ipsum id. Sunt numquam rerum sed unde, reprehenderit quos illo magni laborum officiis tempora.</p>
+            </div>
+        </div> 
+    </section>
+    <section class="portafolio">
+        <div class="contenedor">
+            <h2 class="titulo">Logros</h2>
+            <div class="galery-port">
+                <div class="image-port">
+                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <div class="hover-galery">
+                        <img src="img/5.svg" alt="plot" width="400">
+                        <p>Mi trabajo</p>
+                    </div>
+                </div>
+                <div class="image-port">
+                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <div class="hover-galery">
+                        <img src="img/5.svg" alt="plot" width="400">
+                        <p>Mi trabajo</p>
+                    </div>
+                </div>
+                <div class="image-port">
+                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <div class="hover-galery">
+                        <img src="img/5.svg" alt="plot" width="400">
+                        <p>Mi trabajo</p>
+                    </div>
+                </div>
+                <div class="image-port">
+                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <div class="hover-galery">
+                        <img src="img/5.svg" alt="plot">
+                        <p>Mi trabajo</p>
+                    </div>
+                </div>
+                <div class="image-port">
+                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <div class="hover-galery">
+                        <img src="img/5.svg" alt="plot">
+                        <p>Mi trabajo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="unPocoMás">
+            <h2 class="titulo">Experiencia</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/1.jpeg" alt="" width="300">
+                    <div class="contenido-texto card">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/2.jfif" alt="" width="300">
+                    <div class="contenido-texto card">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic!</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Otras experiencias</h2>
+                <div class="servicios-interes">
+                    <img src="img/man_hand_illustration.svg" alt="intereses" width="200">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum!</p>
+                </div>
+                <div class="servicios-interes">
+                    <img src="img/PNG+SVG/SVG/Gradient/Characters/Boy.svg" alt="intereses" width="200">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum!</p>
+                </div>
+                <div class="servicios-interes">
+                    <img src="img/SVG/Examples/bg1-2.svg" alt="intereses" width="200">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum!</p>
+                </div>
+            </div>
+    </section>
+</main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>3005633977</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>sgomeza15@eafit.edu.co</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
