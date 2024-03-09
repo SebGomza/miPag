@@ -46,7 +46,7 @@ a{
 }
 
 ul{
-    display: flexbox;
+    display: flex;
     align-items: baseline ;
-    justify-content: center;
+    justify-content: start;
 }
