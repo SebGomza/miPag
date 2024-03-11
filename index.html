@@ -5,78 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Web Sebastian</title>
     <link rel="shortcut icon" href="img/logo.svg">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">¿Quién soy?</a>
-            <a href="#">Experiencia</a>
-            <a href="#">Pasiones</a>
-            <a href="#">Contacto</a>
+        <div class="container d-flex justify-between items-center m-auto">
             <a href="index.html">
-            <img src="img/logo.svg" alt="Logo" width="20">
+                <img src="img/logo.svg" alt="Logo" width="60">
             </a>
-        </nav> 
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Quién soy?</a></li>
+                    <li><a href="#">Experiencia</a></li>
+                    <li><a href="#">Pasiones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>     
             <section class="textos-header">
                 <h1>En hombros de gigantes</h1>
                 <h2>La curiosidad como una guía</h2>
             </section>
-                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C190.97,-49.81 369.66,148.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg>
+                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C190.97,-49.81 369.66,148.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg>
                 </div>
     </header>
 <main>
-    <section class="contenedor sobre-mí">
+    <section class="contenedor sobre-mi">
         <h2 class="titulo">¿Quién soy?</h2>
-        <div class="contenedor-sobre-mí">
+        <div class="contenedor-sobre-mi">
             <img src="img/M102_HubbleEbrahimian_3615.jpg" alt="astronomy" width="500">
             <div class="contenido-text">
                 <h3>Momentos</h3>
                 <p>¡Saludos a todos! Soy Sebastian, una mente inquieta y apasionada que ha tejido su historia entre la política, la ciencia, la educación y las experiencias cotidianas. Permíteme llevarte a un viaje a través de los distintos capítulos de mi vida.</p>
+                <p> Nací el 31 de octubre de 1992 en Rionegro, Antioquia. Mis primeros años de educación transcurrieron en la Institución Educativa Josefina Muñoz González, un colegio público donde, de manera natural, me fui interesando por la ciencia en general. Sin embargo, fue la astronomía la que capturó mi atención de manera especial, llevándome a elegirla como mi campo de estudio en la Universidad de Antioquia.Durante mi pregrado en astronomía, comencé a divulgar esta fascinante disciplina. Sin embargo, a medida que compartía mi conocimiento, una cuestión empezó a germinar en mí a través de la divulgación científica. Este proceso de reflexión y cuestionamiento me llevó a replantear mi enfoque académico. Motivado por la necesidad de cambios en el sistema educativo, decidí cambiar mi rumbo y me embarqué en el estudio de Ciencia Política. Este giro académico representó mi compromiso con contribuir a transformaciones significativas en el ámbito educativo.</p>
             </div>
         </div> 
     </section>
-    <section class="portafolio">
+    <section class="experiencias">
         <div class="contenedor">
-            <h2 class="titulo">Logros</h2>
+            <h2 class="titulo">Experiencia Laboral</h2>
             <div class="galery-port">
                 <div class="image-port">
-                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <img src="img/Telescopío.png" alt="Explorador" >
                     <div class="hover-galery">
-                        <img src="img/5.svg" alt="plot" width="400">
-                        <p>Mi trabajo</p>
+                        <p>Durante 7 años trabaje en el Parque Explora, donde desempeñé roles clave. Me encargué de la ubicación conceptual del museo, orienté al público, brindé apoyo e información sobre las experiencias, y demostré el manejo adecuado de equipos. Lideré demostraciones y actividades de ciencia y tecnología para niños, jóvenes y adultos, ejecutando actividades experimentales en rutas pedagógicas. Además, creé cursos extracurriculares para colegios, diseñando estrategias didácticas para acercar el conocimiento de la astronomía. Participé en el diseño de visualizaciones astronómicas para programas culturales y apropiación de espacios, alineando programas a objetivos corporativos, como "Viaje a Marte", "Conexión Jaguar", y "Viaje por el firmamento". Estos programas fueron creados para acompañar visualmente conciertos con la Filarmónica de Medellín y el Planetario de Medellín, brindando disfrute a la ciudadanía. </p>
                     </div>
                 </div>
                 <div class="image-port">
-                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <img src="img/Telescopío.png" alt="Bartender y Barista">
                     <div class="hover-galery">
-                        <img src="img/5.svg" alt="plot" width="400">
-                        <p>Mi trabajo</p>
+                        <img src="img/1.jpeg" alt="">
+                        <p>Me incursione en el fascinante mundo de las bebidas, explorando el arte de ser bartender y barista, una experiencia que dejó una impronta única en mi trayectoria. La creación de cócteles y la maestría detrás de preparar el café me proporcionó habilidades que trascendieron lo meramente técnico, convirtiéndose en una forma de expresión artística.Lo que me permitió no solo perfeccionar la destreza en la elaboración de bebidas, sino también la oportunidad de concebir cartas de coctelería innovadoras y organizar eventos memorables.</p>
                     </div>
                 </div>
                 <div class="image-port">
-                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <img src="img/Telescopío.png" alt="Politologo" >
                     <div class="hover-galery">
-                        <img src="img/5.svg" alt="plot" width="400">
-                        <p>Mi trabajo</p>
+                        <img src="img/5.svg" alt="">
+                        <p>Como estudiante de Ciencias Políticas, me fuí adentrando en las formas de entender el poder y la transformación a través de las políticas públicas, esto me llevó a realizar mis prácticas en el Ministerio de Energía y Minas, lo que me permitió contribuir a la construcción de políticas pública de minería de subsistencia.</p>
                     </div>
                 </div>
                 <div class="image-port">
-                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
+                    <img src="img/Telescopío.png" alt="Mentor" >
                     <div class="hover-galery">
-                        <img src="img/5.svg" alt="plot">
-                        <p>Mi trabajo</p>
-                    </div>
-                </div>
-                <div class="image-port">
-                    <img src="img/Telescopío.png" alt="astronomy-2" width="500">
-                    <div class="hover-galery">
-                        <img src="img/5.svg" alt="plot">
-                        <p>Mi trabajo</p>
+                        <img src="img/5.svg" alt="">
+                        <p>Actualmente, me desempeño como profesor del quinto grado, un rol que trasciende el título convencional para convertirse en un verdadero mentor. Mi enfoque va más allá de la simple impartición de conocimientos; busco transformar la educación, inspirando a los niños a explorar y trascender los límites del aprendizaje. Bajo el nombre de "mentor", mi objetivo es cultivar la curiosidad innata de las mentes jóvenes, motivándolas a ir más allá de la información superficial y fomentando un crecimiento integral. En mi aula, cada día es una oportunidad para sembrar la semilla del conocimiento y verla florecer en la mente inquisitiva de mis estudiantes.</p>
                     </div>
                 </div>
             </div>
@@ -87,13 +84,13 @@
             <div class="cards">
                 <div class="card">
                     <img src="img/1.jpeg" alt="" width="300">
-                    <div class="contenido-texto card">
+                    <div class="contenido-texto-card">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic!</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="img/2.jfif" alt="" width="300">
-                    <div class="contenido-texto card">
+                    <div class="contenido-texto-card">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic!</p>
                     </div>
                 </div>
@@ -119,8 +116,10 @@
                 </div> 
             </div>
     </section>
-</main>
     <footer>
+        <div class="container d-flex justify-center m-auto">
+            <span>&copy; todos los derechos reservados</span>
+        </div>
         <div class="contenedor-footer">
             <div class="content-foo">
                 <h4>Phone</h4>
@@ -132,5 +131,6 @@
             </div>
         </div>
     </footer>
+</main>
 </body>
 </html>
