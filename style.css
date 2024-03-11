@@ -150,6 +150,49 @@ header{
     width: 48%;
 }
 
+
+.about-experiencia{
+    margin-top: 30px;
+}
+
+.experiencia-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia-ind{
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.experiencia-ind img{
+    width: 200px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experiencia-ind:hover img{
+    transform: scale(1.2);
+}
+.experiencia-texto{
+    flex: 1;
+    text-align: justify;
+}
+
+
+.experiencia-texto h3{
+    margin-bottom: 15px;
+    color: #8225ce;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0 , 0, .5);
+    margin-right: 5px;
+}
+
 .contenido-text h3{
     margin-bottom: 15px;
     color: #8225ce;
@@ -165,39 +208,6 @@ header{
 .contenido-text p{
     padding: 0px 0px 30px 15px;
     font-weight: 400;
-    text-align: justify;
-}
-
-
-.about-experiencia{
-    display: flex;
-    justify-content: space-between;
-}
-
-.experiencia-cont{
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    flex-direction: column;
-}
-
-.experiencia-ind{
-    width: 28%;
-    text-align: justify;
-}
-
-.experiencia-ind img{
-    width: 90%;
-
-}
-
-.servicio-ind h3{
-    margin: 10px;
-
-}
-
-.servicio-ind p{
-    font-weight: 300;
     text-align: justify;
 }
 
